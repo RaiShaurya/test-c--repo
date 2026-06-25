@@ -16,7 +16,7 @@ int unique(int arr[],int sz){
         {
             return arr[i];
         }
-        
+         
         
     }
     return -1;
