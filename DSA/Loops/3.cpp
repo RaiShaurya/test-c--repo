@@ -8,7 +8,10 @@ int main(){
     while (n>0)
     {
         lastdig = n%10;
-        sum += lastdig;
+        if (lastdig %2 !=0)
+        {
+            sum += lastdig;
+        }
         n=n/10;
     }
     cout << "sum= " << sum << endl;
