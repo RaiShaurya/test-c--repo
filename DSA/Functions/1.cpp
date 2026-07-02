@@ -15,6 +15,6 @@ int binCoeff(int n , int r){
     return value1/(value2*value3);
 }
 int main(){
-    cout <<binCoeff(4,2);
+    cout <<binCoeff(4,2);   
     return 0;
 }
